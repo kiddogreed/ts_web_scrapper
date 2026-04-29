@@ -1,0 +1,25 @@
+{
+  "name": "ts-web-scraper",
+  "version": "1.0.0",
+  "description": "Production-grade modular web scraper using TypeScript, Playwright, and Crawlee.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@crawlee/playwright": "^3.7.0",
+    "playwright": "^1.43.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2"
+  },
+  "bin": {
+    "ts_web_scraper": "dist/index.js"
+  }
+}

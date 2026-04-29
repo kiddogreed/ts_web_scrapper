@@ -1,0 +1,15 @@
+target_url
+
+https://books.toscrape.com/
+https://quotes.toscrape.com/
+https://news.ycombinator.com/news/
+https://www.reddit.com/r/popular/
+https://www.imdb.com/chart/moviemeter/
+https://www.producthunt.com/
+https://github.com/trending/
+
+
+
+sample commands
+ts_web_scraper https://github.com/trending/ --maxItem 50
+ts_web_scraper https://quotes.toscrape.com/ --maxItem 50
